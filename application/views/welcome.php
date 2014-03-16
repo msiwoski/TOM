@@ -61,9 +61,9 @@
         </div>
         <div>
             <img src="/assets/images/lifeofchai-small.png" alt="Img"> <span>February 9, 2014</span>
-            <h2>
+            <p>
                 Some of our favorites
-            </h2>
+            </p>
             <a href="/reviews" class="more">Read More</a>
         </div>
     </div>
