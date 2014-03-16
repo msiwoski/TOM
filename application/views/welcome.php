@@ -57,14 +57,14 @@
             <p>
                 Our Introduction
             </p>
-            <a href="blog" class="more">Read More</a>
+            <a href="/reviews" class="more">Read More</a>
         </div>
         <div>
             <img src="/assets/images/lifeofchai-small.png" alt="Img"> <span>February 9, 2014</span>
             <p>
                 Some of our favorites
             </p>
-            <a href="blog" class="more">Read More</a>
+            <a href="/reviews" class="more">Read More</a>
         </div>
     </div>
 </div>
