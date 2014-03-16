@@ -1,3 +1,13 @@
+Please mark the following for lab8:
+	controllers/Capo.php
+	controllers/updateddescription.php
+	core/MY_Controller.php	
+	views/updatedescription.php
+
+note: 	Editable profiles for each user
+	
+
+
 Please mark the following for Lab7:
 	Added KUBE Framework
 	Added CKEditor for text editor
