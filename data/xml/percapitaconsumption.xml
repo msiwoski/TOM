@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE consumption SYSTEM "percapitaconsumption.dtd">
+<!--
+    Document   : percapitaconsumption.xml
+    Created on : January 22, 2014
+    Author     : Mat Siwoski & Jordan Marling
+    Description:
+        Per Capita Consumption of Beer, Spirits & Wine in Litres in Canada.	
+        All statistical data is provided by the Beer Association of Canada
+        at www.beercanada.com
+-->
+<consumption>
+    <provinces>
+        <province code="NF">Newfoundland</province>    
+        <province code="PEI">Prince Edward Island</province>    
+        <province code="NS">Nova Scotia</province> 
+		<province code="NB">New Brunswick</province>
+		<province code="QC">Quebec</province>
+		<province code="ON">Ontario</province>
+		<province code="MB">Manitoba</province>
+		<province code="SK">Saskatchewan</province>
+		<province code="AB">Alberta</province>
+		<province code="BC">British Columbia</province>
+		<province code="YK">Yukon Territory</province> 
+		<province code="NWT">NWT &amp; Nunavut</province>		
+    </provinces>
+	<categories>
+        <category code="B">Beer</category>
+        <category code="S">Spirits</category>
+        <category code="W">Wine</category>
+    </categories>
+    <sources province="NF">
+		<alcohol type="B">
+			<sold year="2007">102.69</sold>    
+			<sold year="2008">106.04</sold>    
+			<sold year="2009">109.16</sold>    
+			<sold year="2010">106.70</sold>
+			<sold year="2011">102.69</sold>
+			<sold year="2012">105.04</sold>		
+		</alcohol>
+		<alcohol type="S">
+			<sold year="2007">8.46</sold>    
+			<sold year="2008">8.95</sold>    
+			<sold year="2009">9.10</sold>    
+			<sold year="2010">9.10</sold>
+			<sold year="2011">9.27</sold>
+			<sold year="2012">9.56</sold>		
+		</alcohol>
+		<alcohol type="W">
+			<sold year="2007">6.45</sold>    
+			<sold year="2008">7.15</sold>    
+			<sold year="2009">7.53</sold>    
+			<sold year="2010">8.09</sold>
+			<sold year="2011">8.58</sold>
+			<sold year="2012">8.62</sold>		
+		</alcohol>
+	</sources>
+    <sources province="PEI">
+		<alcohol type="B">
+			<sold year="2007">88.89</sold>    
+			<sold year="2008">89.75</sold>    
+			<sold year="2009">87.98</sold>    
+			<sold year="2010">87.81</sold>
+			<sold year="2011">80.07</sold>
+			<sold year="2012">81.02</sold>		
+		</alcohol>
+		<alcohol type="S">
+			<sold year="2007">7.13</sold>    
+			<sold year="2008">7.12</sold>    
+			<sold year="2009">7.01</sold>    
+			<sold year="2010">6.89</sold>
+			<sold year="2011">6.55</sold>
+			<sold year="2012">6.55</sold>		
+		</alcohol>
+		<alcohol type="W">
+			<sold year="2007">9.75</sold>    
+			<sold year="2008">10.21</sold>    
+			<sold year="2009">10.58</sold>    
+			<sold year="2010">10.78</sold>
+			<sold year="2011">10.73</sold>
+			<sold year="2012">10.76</sold>		
+		</alcohol>
+	</sources>
+	<sources province="NS">
+		<alcohol type="B">     
+			<sold year="2007">89.15</sold>    
+			<sold year="2008">89.52</sold>    
+			<sold year="2009">90.59</sold>    
+			<sold year="2010">87.53</sold>
+			<sold year="2011">83.28</sold>
+			<sold year="2012">82.78</sold>		
+		</alcohol>
+		<alcohol type="S">     
+			<sold year="2007">6.99</sold>    
+			<sold year="2008">7.03</sold>    
+			<sold year="2009">6.93</sold>    
+			<sold year="2010">6.78</sold>
+			<sold year="2011">6.69</sold>
+			<sold year="2012">6.60</sold>		
+		</alcohol>
+		<alcohol type="W">    
+			<sold year="2007">10.32</sold>    
+			<sold year="2008">10.85</sold>    
+			<sold year="2009">11.03</sold>    
+			<sold year="2010">11.23</sold>
+			<sold year="2011">11.43</sold>
+			<sold year="2012">11.22</sold>		
+		</alcohol>
+	</sources>
+	<sources province="NB">
+		<alcohol type="B">     
+			<sold year="2007">86.99</sold>    
+			<sold year="2008">87.54</sold>    
+			<sold year="2009">87.41</sold>    
+			<sold year="2010">85.33</sold>
+			<sold year="2011">78.79</sold>
+			<sold year="2012">74.29</sold>		
+		</alcohol>
+		<alcohol type="S">   
+			<sold year="2007">4.90</sold>    
+			<sold year="2008">5.02</sold>    
+			<sold year="2009">4.98</sold>    
+			<sold year="2010">4.90</sold>
+			<sold year="2011">4.86</sold>
+			<sold year="2012">4.74</sold>		
+		</alcohol>
+		<alcohol type="W">    
+			<sold year="2007">8.01</sold>    
+			<sold year="2008">8.38</sold>    
+			<sold year="2009">8.40</sold>    
+			<sold year="2010">8.77</sold>
+			<sold year="2011">8.85</sold>
+			<sold year="2012">8.75</sold>		
+		</alcohol>
+	</sources>
+	<sources province="QC">
+		<alcohol type="B">    
+			<sold year="2007">96.49</sold>    
+			<sold year="2008">98.91</sold>    
+			<sold year="2009">98.28</sold>    
+			<sold year="2010">95.80</sold>
+			<sold year="2011">96.19</sold>
+			<sold year="2012">94.06</sold>		
+		</alcohol>
+		<alcohol type="S">
+			<sold year="2007">3.17</sold>    
+			<sold year="2008">3.11</sold>    
+			<sold year="2009">3.16</sold>    
+			<sold year="2010">3.20</sold>
+			<sold year="2011">3.28</sold>
+			<sold year="2012">3.36</sold>		
+		</alcohol>
+		<alcohol type="W">
+			<sold year="2007">20.89</sold>    
+			<sold year="2008">21.38</sold>    
+			<sold year="2009">22.01</sold>    
+			<sold year="2010">22.58</sold>
+			<sold year="2011">23.12</sold>
+			<sold year="2012">23.42</sold>		
+		</alcohol>
+	</sources>
+	<sources province="ON">
+		<alcohol type="B">     
+			<sold year="2007">84.99</sold>    
+			<sold year="2008">84.05</sold>    
+			<sold year="2009">81.51</sold>    
+			<sold year="2010">81.33</sold>
+			<sold year="2011">77.38</sold>
+			<sold year="2012">77.29</sold>		
+		</alcohol>
+		<alcohol type="S">
+			<sold year="2007">5.78</sold>    
+			<sold year="2008">5.64</sold>    
+			<sold year="2009">5.52</sold>    
+			<sold year="2010">5.44</sold>
+			<sold year="2011">5.44</sold>
+			<sold year="2012">5.48</sold>		
+		</alcohol>
+		<alcohol type="W">
+			<sold year="2007">13.69</sold>    
+			<sold year="2008">13.78</sold>    
+			<sold year="2009">13.90</sold>    
+			<sold year="2010">14.04</sold>
+			<sold year="2011">14.23</sold>
+			<sold year="2012">14.31</sold>		
+		</alcohol>
+	</sources>
+	<sources province="MB">
+		<alcohol type="B">     
+			<sold year="2007">86.37</sold>    
+			<sold year="2008">86.90</sold>    
+			<sold year="2009">86.81</sold>    
+			<sold year="2010">85.90</sold>
+			<sold year="2011">85.78</sold>
+			<sold year="2012">83.50</sold>		
+		</alcohol>
+		<alcohol type="S">
+			<sold year="2007">7.29</sold>    
+			<sold year="2008">7.43</sold>    
+			<sold year="2009">7.39</sold>    
+			<sold year="2010">7.27</sold>
+			<sold year="2011">7.23</sold>
+			<sold year="2012">7.22</sold>		
+		</alcohol>
+		<alcohol type="W">
+			<sold year="2007">9.16</sold>    
+			<sold year="2008">9.45</sold>    
+			<sold year="2009">9.61</sold>    
+			<sold year="2010">9.85</sold>
+			<sold year="2011">10.03</sold>
+			<sold year="2012">10.04</sold>		
+		</alcohol>
+	</sources>
+	<sources province="SK">
+		<alcohol type="B">     
+			<sold year="2007">88.08</sold>    
+			<sold year="2008">90.91</sold>    
+			<sold year="2009">89.31</sold>    
+			<sold year="2010">85.71</sold>
+			<sold year="2011">84.96</sold>
+			<sold year="2012">85.94</sold>		
+		</alcohol>
+		<alcohol type="S">
+			<sold year="2007">8.02</sold>    
+			<sold year="2008">8.33</sold>    
+			<sold year="2009">8.51</sold>    
+			<sold year="2010">8.50</sold>
+			<sold year="2011">8.53</sold>
+			<sold year="2012">8.61</sold>		
+		</alcohol>
+		<alcohol type="W">
+			<sold year="2007">6.14</sold>    
+			<sold year="2008">6.53</sold>    
+			<sold year="2009">6.85</sold>    
+			<sold year="2010">7.14</sold>
+			<sold year="2011">7.25</sold>
+			<sold year="2012">7.22</sold>		
+		</alcohol>
+	</sources>
+	<sources province="AB">
+		<alcohol type="B">     
+			<sold year="2007">99.73</sold>    
+			<sold year="2008">96.91</sold>    
+			<sold year="2009">93.65</sold>    
+			<sold year="2010">90.88</sold>
+			<sold year="2011">90.25</sold>
+			<sold year="2012">89.94</sold>		
+		</alcohol>
+		<alcohol type="S">
+			<sold year="2007">8.88</sold>    
+			<sold year="2008">8.94</sold>    
+			<sold year="2009">8.34</sold>    
+			<sold year="2010">8.36</sold>
+			<sold year="2011">8.42</sold>
+			<sold year="2012">8.63</sold>		
+		</alcohol>
+		<alcohol type="W">
+			<sold year="2007">11.12</sold>    
+			<sold year="2008">11.35</sold>    
+			<sold year="2009">11.30</sold>    
+			<sold year="2010">11.81</sold>
+			<sold year="2011">12.20</sold>
+			<sold year="2012">12.62</sold>		
+		</alcohol>
+	</sources>
+	<sources province="BC">
+		<alcohol type="B">     
+			<sold year="2007">82.89</sold>    
+			<sold year="2008">81.65</sold>    
+			<sold year="2009">80.25</sold>    
+			<sold year="2010">76.27</sold>
+			<sold year="2011">73.09</sold>
+			<sold year="2012">71.70</sold>		
+		</alcohol>
+		<alcohol type="S">     
+			<sold year="2007">7.31</sold>    
+			<sold year="2008">7.41</sold>    
+			<sold year="2009">6.96</sold>    
+			<sold year="2010">6.64</sold>
+			<sold year="2011">6.51</sold>
+			<sold year="2012">6.43</sold>		
+		</alcohol>
+		<alcohol type="W">    
+			<sold year="2007">16.12</sold>    
+			<sold year="2008">16.74</sold>    
+			<sold year="2009">16.36</sold>    
+			<sold year="2010">16.70</sold>
+			<sold year="2011">16.67</sold>
+			<sold year="2012">16.58</sold>		
+		</alcohol>
+	</sources>
+	<sources province="YK">
+		<alcohol type="B">     
+			<sold year="2007">148.08</sold>    
+			<sold year="2008">141.17</sold>    
+			<sold year="2009">145.48</sold>    
+			<sold year="2010">145.94</sold>
+			<sold year="2011">143.61</sold>
+			<sold year="2012">137.37</sold>		
+		</alcohol>
+		<alcohol type="S">     
+			<sold year="2007">11.11</sold>    
+			<sold year="2008">11.53</sold>    
+			<sold year="2009">11.22</sold>    
+			<sold year="2010">11.50</sold>
+			<sold year="2011">11.61</sold>
+			<sold year="2012">11.52</sold>		
+		</alcohol>
+		<alcohol type="W">     
+			<sold year="2007">15.70</sold>    
+			<sold year="2008">15.74</sold>    
+			<sold year="2009">15.53</sold>    
+			<sold year="2010">16.34</sold>
+			<sold year="2011">16.78</sold>
+			<sold year="2012">16.59</sold>		
+		</alcohol>
+	</sources>
+	<sources province="NWT">
+		<alcohol type="B">     
+			<sold year="2007">75.21</sold>    
+			<sold year="2008">75.89</sold>    
+			<sold year="2009">71.39</sold>    
+			<sold year="2010">70.14</sold>
+			<sold year="2011">68.70</sold>
+			<sold year="2012">72.88</sold>		
+		</alcohol>
+		<alcohol type="S">     
+			<sold year="2007">10.39</sold>    
+			<sold year="2008">10.62</sold>    
+			<sold year="2009">10.19</sold>    
+			<sold year="2010">10.23</sold>
+			<sold year="2011">10.08</sold>
+			<sold year="2012">10.0</sold>		
+		</alcohol>
+		<alcohol type="W">     
+			<sold year="2007">7.23</sold>    
+			<sold year="2008">7.42</sold>    
+			<sold year="2009">7.20</sold>    
+			<sold year="2010">7.46</sold>
+			<sold year="2011">7.56</sold>
+			<sold year="2012">6.84</sold>		
+		</alcohol>
+	</sources>	
+</consumption>

@@ -1,0 +1,47 @@
+<!--
+DTD for percapitaconsumption.xml
+The data is hierarchical, structured by province
+
+Comp4711 Lab 04
+Jordan Marling and Mateusz Siwoski
+-->
+<!--
+The root element, will contain definitions for provinces,
+categories ("Alcohol type") and sources (data portion by year).
+The information comes from the Beer Associates of Canada.
+-->
+<!ELEMENT consumption (provinces, categories, sources*)>
+<!-- The province code for the province.
+Note that we are not constraining the province code/value - 
+this is intended to come from programmatic validation later
+as there may be another province added ie. Nunavut
+-->
+<!ELEMENT provinces (province+)>
+<!ELEMENT province (#PCDATA)>
+<!ATTLIST province code CDATA #REQUIRED>
+
+<!--The alcohol types allowed.
+
+Note that we are not constraining the category code/value - 
+this is intended to come from programmatic validation later
+as we may decide to add a different alcohol type
+-->    
+<!ELEMENT categories (category+)>
+<!ELEMENT category (#PCDATA)>
+<!ATTLIST category code CDATA #REQUIRED>
+
+<!--The annual amount of consumption of alcohol per province.
+-->    
+<!ELEMENT sources (alcohol+)>
+<!ATTLIST sources province CDATA #REQUIRED>
+
+<!--The alcohol sold specific to the province.
+-->    
+<!ELEMENT alcohol (sold+)>
+<!ATTLIST alcohol type CDATA #REQUIRED>
+
+<!--The amount sold by the year.
+-->    
+<!ELEMENT sold (#PCDATA)>
+<!ATTLIST sold year CDATA #REQUIRED> 
+
