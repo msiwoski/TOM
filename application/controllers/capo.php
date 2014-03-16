@@ -8,9 +8,6 @@
 
 class Capo extends CI_Controller {
     
-    var $remote_port = 90;
-    var $remote_name = '';
-    
     var $code = 'o01';
     var $name = 'Thirst Of Man';
     var $slug = 'Modern beer drinking beer reviews';
@@ -21,6 +18,7 @@ class Capo extends CI_Controller {
         parent::__construct();
         $this->load->library('xmlrpc');
         $this->load->library('xmlrpcs');
+        $this->load->model('properties');
     }
     
     function index() {
@@ -43,12 +41,14 @@ class Capo extends CI_Controller {
     function handle_info($request = null) {
         // build our raw response. 
         $answer = array(
-            array('code' => array($this->code, 'string')),
-            array('name' => array($this->name, 'string')),
-            array('link' => array($this->link, 'string')),
-            array('plug' => array($this->slug, 'string')),
+            array('code' => array($this->properties->get('code')->value, 'string')),
+            array('name' => array($this->properties->get('name')->value, 'string')),
+            array('link' => array($this->properties->get('link')->value, 'string')),
+            array('plug' => array($this->properties->get('slug')->value, 'string')),
         );
-
+        
+        
+        
         // wrap it for XML-RPC
         $response = array();
         foreach ($answer as $row)
@@ -126,7 +126,7 @@ class Capo extends CI_Controller {
         // build our raw response, tailored to our blog post columns
         $answer = array(
             // our syndication id
-            array('code' => $this->code),
+            array('code' => $this->properties->get('code')->value),
             // our post id
             array('id' => $record['id']),
             // our post date
@@ -145,7 +145,7 @@ class Capo extends CI_Controller {
         // build our raw response, tailored to our blog post columns
         $answer = array(
             // our syndication id
-            'code' => $this->code,
+            'code' => $this->properties->get('code')->value,
             // our post id
             'id' => $record['id'],
             // our post date

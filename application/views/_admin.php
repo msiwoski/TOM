@@ -4,3 +4,4 @@
  */
 ?>
 <li><a href="/usermaintenance">User Maintenance</a></li>
+<li><a href="/updatedescription">Update Site Description</a></li>

@@ -140,7 +140,7 @@ class Reviews extends Application {
     
     function build_featured_blogs() {
         $links = array(
-            /*array(
+            array(
                 "date" => "Feb 23",
                 "name" => "Vancouver Pub Reviews",
                 "url" => "http://vancouverpubreviews.bcitxml.com/",
@@ -151,7 +151,7 @@ class Reviews extends Application {
                 "name" => "Canadian Hockey Fans",
                 "url" => "http://chf.bcitxml.com",
                 "description" => "Beer goes well with hockey."
-            ),
+            )/*,
             array(
                 "date" => "Apr 16",
                 "name" => "The Newest Innovation On Wooden",
