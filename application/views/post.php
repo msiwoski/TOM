@@ -5,12 +5,13 @@
     <p class="info">
         Posted By: <a href="/profiles/{user_id}">{user}</a> in <a href="{category_link}">{category}</a>
     </p>
-    <img src="/data/images/{filename}" alt="Img" title="{caption}" class="post_img">
+    <img src="/data/images/{filename}" alt="" title="{caption}" class="post_img">
     {/images}
-    <p>
+    </br>
+    <h2 class="slug">
         {slug}
-    </p>
-    <p>
+    </h2>
+    <p class="bodyText">
         {text}
     </p>
     <!--<a href="/view/post/{id}" class="more">Read More</a> <a href="/view/post/{id}" class="comments">0 Comments</a>-->

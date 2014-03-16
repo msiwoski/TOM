@@ -972,10 +972,19 @@ th a:hover{color:inherit}*/
 
 /*custom image for actual post*/
 .post_img{
-	display: block;	
-	height: 420px;
-	width: 300px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 75%;
+	width: 75%;
 	padding-left: 10px;
+}
+.slug{
+    padding-left: 20px;    
+}
+
+.bodyText{
+    padding-left: 20px;      
 }
 
 /*login*/
